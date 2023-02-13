@@ -1,0 +1,12 @@
+.btn {
+  position: absolute;
+  right: 100px;
+  top: 20px;
+}
+
+.btn button {
+  padding: 5px 7.5px;
+  margin: 0 10px;
+  font-weight: 600;
+  color: rgba(72, 72, 248, 0.877);
+}

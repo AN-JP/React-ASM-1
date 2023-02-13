@@ -1,0 +1,32 @@
+.container_hotel {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.hotelList {
+  display: flex;
+  padding-top: 20px;
+}
+
+.hotelList img {
+  display: block;
+  width: 250px;
+  height: 270px;
+  margin-right: 20px;
+}
+
+.container_hotel a {
+  font-weight: 700;
+  color: rgb(86, 0, 199);
+}
+
+.container_hotel p {
+  padding: 5px 0;
+  margin-bottom: 0;
+}
+
+.container_hotel span {
+  background-color: rgb(1, 1, 148);
+  color: white;
+  padding: 3px;
+}

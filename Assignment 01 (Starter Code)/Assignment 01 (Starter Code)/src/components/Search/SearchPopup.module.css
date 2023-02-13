@@ -1,0 +1,40 @@
+.search_popup {
+  height: 485px;
+  border: 1px solid black;
+  padding: 10px;
+  background: rgb(253, 198, 95);
+  border-radius: 15px;
+}
+
+.search_popup h4 {
+  color: #5f5c5c;
+}
+
+.search_popup h6 {
+  margin: 4px 0;
+}
+
+.a {
+  width: 100%;
+  height: 40px;
+}
+
+.input_text label {
+  display: inline-block;
+  width: 200px;
+  padding-left: 10px;
+  color: #5f5c5c;
+}
+
+.input_text input {
+  width: 50px;
+  margin-top: 10px;
+}
+
+.search_popup button {
+  margin-top: 40px;
+  color: white;
+  width: 100%;
+  height: 40px;
+  background: rgb(76, 76, 252);
+}

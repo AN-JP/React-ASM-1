@@ -1,0 +1,14 @@
+.container_footer {
+  width: 1095px;
+  display: grid;
+  grid-template-columns: 16% 16% 23% 23% 22%;
+  margin: 20px 0 0 90px;
+}
+
+.container_footer a {
+  color: blue;
+}
+
+.container_footer li {
+  padding: 5px 0;
+}

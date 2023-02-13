@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.home {
+  background-color: rgb(36 39 134);
+  color: white;
+  position: relative;
+  padding: 20px 100px;
+  font-size: 16px !important;
+  height: 400px;
+}

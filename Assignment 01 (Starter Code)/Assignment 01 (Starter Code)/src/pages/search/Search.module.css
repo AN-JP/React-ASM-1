@@ -1,0 +1,15 @@
+.search {
+  display: grid;
+  grid-template-columns: 23% auto;
+  margin: 20px 40px;
+  grid-column-gap: 20px;
+}
+
+.home {
+  background-color: rgb(36 39 134);
+  color: white;
+  position: relative;
+  padding: 20px 100px;
+  font-size: 16px !important;
+  height: 150px;
+}

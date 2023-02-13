@@ -1,0 +1,58 @@
+.body {
+  padding: 10px 100px 10px 100px;
+}
+
+/* phần trên img */
+.top {
+  position: relative;
+}
+
+.top button {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  color: white;
+  background: rgb(47 130 255);
+  padding: 7.5px;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+
+/* phần img */
+.imglist img {
+  width: 354px;
+}
+
+/* phần bottom */
+.bottom {
+  display: grid;
+  grid-template-columns: 70% auto;
+  column-gap: 20px;
+  margin-top: 30px;
+}
+
+.bottom h2 {
+  font-weight: 700;
+}
+
+.bottom div:last-child {
+  background: #e0ecff;
+  padding: 20px;
+}
+
+.price {
+  font-size: 30px;
+}
+
+.price span {
+  font-weight: 700;
+}
+
+.bottom button {
+  width: 100%;
+  background: rgb(47 130 255);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}

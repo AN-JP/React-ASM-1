@@ -1,0 +1,77 @@
+.search_container {
+  display: grid;
+  grid-template-columns: 24% 51% auto;
+  grid-column-gap: 15px;
+
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 6px;
+  margin-bottom: 15px;
+}
+
+/* bên trái  */
+.search_container img {
+  width: 100%;
+  height: 220px;
+}
+
+/* giữa */
+
+.center h3 {
+  color: rgb(11 106 222);
+  margin-bottom: 0;
+}
+
+.center :nth-child(3) {
+  display: inline-block;
+  border-radius: 5px;
+  background: rgb(87, 132, 19);
+  color: white;
+  padding: 3px;
+  margin: 2px 0 0px 0;
+}
+.center p {
+  padding-top: 7px;
+  margin-bottom: 0;
+}
+
+/* ô thứ 3 */
+
+.right {
+  position: relative;
+}
+
+.right span {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  background: #1b4ca6;
+  color: white;
+  padding: 3px;
+}
+
+.right div:nth-child(2) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.right h2 {
+  text-align: end;
+  margin-bottom: 0;
+}
+
+.right p {
+  padding: 7px 0;
+  text-align: end;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+.right button {
+  width: 100%;
+  color: white;
+  background: rgb(76, 76, 252);
+  height: 40px;
+  border-radius: 7.5px;
+}
